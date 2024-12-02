@@ -1,0 +1,7 @@
+.answerCard{
+    display: flex;
+    gap: 10%;
+    background-color: #3C4D67;
+    width: 100%;
+    padding: 1rem;
+}

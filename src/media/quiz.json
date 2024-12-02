@@ -1,0 +1,563 @@
+{
+	"categories": {
+		"Frontend": [
+			{
+				"question": "HTML: Which tag is used to insert an image into a webpage?",
+				"options": ["<img>", "<image>", "<src>", "<pic>"],
+				"answer": "<img>"
+			},
+			{
+				"question": "CSS: Which CSS property is used to change text color?",
+				"options": ["color", "background-color", "font-color", "text-color"],
+				"answer": "color"
+			},
+			{
+				"question": "JavaScript: How do you log a message to the browser console?",
+				"options": ["console.log", "alert", "log", "print"],
+				"answer": "console.log"
+			},
+			{
+				"question": "HTML: What is the purpose of the <a> tag?",
+				"options": [
+					"To create hyperlinks",
+					"To define a paragraph",
+					"To display images",
+					"To create a table"
+				],
+				"answer": "To create hyperlinks"
+			},
+			{
+				"question": "CSS: What does the property 'display: none;' do?",
+				"options": [
+					"Hides an element but keeps its space",
+					"Completely removes an element from the DOM",
+					"Hides an element and removes it from layout flow",
+					"Makes an element transparent"
+				],
+				"answer": "Hides an element and removes it from layout flow"
+			},
+			{
+				"question": "JavaScript: What is the difference between var, let, and const?",
+				"options": [
+					"No difference",
+					"var is block-scoped, let and const are function-scoped",
+					"var is function-scoped, let and const are block-scoped",
+					"const is used for strings only"
+				],
+				"answer": "var is function-scoped, let and const are block-scoped"
+			},
+			{
+				"question": "CSS: How do you create a grid layout in CSS?",
+				"options": [
+					"display: block",
+					"display: flex",
+					"display: grid",
+					"display: inline-block"
+				],
+				"answer": "display: grid"
+			},
+			{
+				"question": "HTML: What is the purpose of the alt attribute in an <img> tag?",
+				"options": [
+					"Adds a tooltip",
+					"Improves SEO and accessibility",
+					"Sets the image title",
+					"Makes the image larger"
+				],
+				"answer": "Improves SEO and accessibility"
+			},
+			{
+				"question": "JavaScript: Which method adds an HTML element to a page via the DOM?",
+				"options": ["appendChild", "createElement", "addElement", "insertHTML"],
+				"answer": "appendChild"
+			},
+			{
+				"question": "Accessibility: Why are <label> tags important for form fields?",
+				"options": [
+					"They make the form look better",
+					"They associate inputs with their descriptions for accessibility",
+					"They validate the input data",
+					"They are mandatory in HTML5"
+				],
+				"answer": "They associate inputs with their descriptions for accessibility"
+			},
+			{
+				"question": "CSS: What is the difference between em and rem units?",
+				"options": [
+					"em is relative to the root font size, rem is relative to the parent",
+					"em is relative to the parent font size, rem is relative to the root font size",
+					"They are identical",
+					"rem is used for percentages only"
+				],
+				"answer": "em is relative to the parent font size, rem is relative to the root font size"
+			},
+			{
+				"question": "Performance: What is lazy loading and how is it applied to images?",
+				"options": [
+					"Loading images with defer",
+					"Loading images only when they are visible on the screen",
+					"Loading images in batches",
+					"Loading images using CSS"
+				],
+				"answer": "Loading images only when they are visible on the screen"
+			},
+			{
+				"question": "JavaScript: What is event delegation and when is it used?",
+				"options": [
+					"Attaching an event to all child elements",
+					"Using a parent element to listen for events from its children",
+					"Delegating events to a server",
+					"Preventing default behavior of events"
+				],
+				"answer": "Using a parent element to listen for events from its children"
+			},
+			{
+				"question": "React: What is the difference between functional and class components?",
+				"options": [
+					"Class components support hooks, functional components do not",
+					"Functional components use hooks; class components use lifecycle methods",
+					"Class components are faster than functional components",
+					"Functional components cannot use props"
+				],
+				"answer": "Functional components use hooks; class components use lifecycle methods"
+			},
+			{
+				"question": "Responsive Design: How does a media query work?",
+				"options": [
+					"By detecting the type of browser",
+					"By applying styles based on screen size or device features",
+					"By querying a database",
+					"By modifying the HTML dynamically"
+				],
+				"answer": "By applying styles based on screen size or device features"
+			},
+			{
+				"question": "JavaScript: Explain closures with an example.",
+				"options": [
+					"A closure is a function that remembers its scope",
+					"A closure is a function executed immediately",
+					"A closure is used for async operations only",
+					"A closure is a function without arguments"
+				],
+				"answer": "A closure is a function that remembers its scope"
+			},
+			{
+				"question": "CSS: What is the difference between relative, absolute, fixed, and sticky positioning?",
+				"options": [
+					"They all behave the same",
+					"They differ in how they relate to the viewport or parent elements",
+					"Only absolute works for child elements",
+					"Sticky is deprecated"
+				],
+				"answer": "They differ in how they relate to the viewport or parent elements"
+			},
+			{
+				"question": "React: What is the Virtual DOM, and how does it improve React's performance?",
+				"options": [
+					"A physical DOM stored in memory",
+					"A lightweight copy of the real DOM that minimizes re-rendering",
+					"An API for manipulating the real DOM",
+					"A DOM for server-side rendering"
+				],
+				"answer": "A lightweight copy of the real DOM that minimizes re-rendering"
+			},
+			{
+				"question": "Security: How can you protect a front-end app against XSS attacks?",
+				"options": [
+					"Disable JavaScript",
+					"Escape user inputs and use Content Security Policies (CSP)",
+					"Use only inline scripts",
+					"Avoid using forms"
+				],
+				"answer": "Escape user inputs and use Content Security Policies (CSP)"
+			},
+			{
+				"question": "Optimization: How can you analyze and reduce the load time of a front-end app?",
+				"options": [
+					"Use a debugger",
+					"Use performance tools like Lighthouse, optimize images, and lazy load resources",
+					"Use fewer colors in CSS",
+					"Load all scripts synchronously"
+				],
+				"answer": "Use performance tools like Lighthouse, optimize images, and lazy load resources"
+			}
+		],
+		"Sport": [
+			{
+				"question": "How many players are on a football team on the field?",
+				"options": ["9", "10", "11", "12"],
+				"answer": "11"
+			},
+			{
+				"question": "Which country won the FIFA World Cup in 2018?",
+				"options": ["Brazil", "Germany", "France", "Spain"],
+				"answer": "France"
+			},
+			{
+				"question": "Which sport uses a racket and a shuttlecock?",
+				"options": ["Tennis", "Badminton", "Squash", "Table Tennis"],
+				"answer": "Badminton"
+			},
+			{
+				"question": "Who won the UEFA Champions League in 2020?",
+				"options": [
+					"Bayern Munich",
+					"Paris Saint-Germain",
+					"Liverpool",
+					"Real Madrid"
+				],
+				"answer": "Bayern Munich"
+			},
+			{
+				"question": "In basketball, what is the maximum number of players allowed on the court for one team?",
+				"options": ["3", "5", "6", "7"],
+				"answer": "5"
+			},
+			{
+				"question": "Which country won the Rugby World Cup in 2019?",
+				"options": ["New Zealand", "South Africa", "England", "Australia"],
+				"answer": "South Africa"
+			},
+			{
+				"question": "Which tennis tournament is played on grass courts?",
+				"options": ["French Open", "Australian Open", "Wimbledon", "US Open"],
+				"answer": "Wimbledon"
+			},
+			{
+				"question": "In which country did the sport of judo originate?",
+				"options": ["China", "Japan", "Korea", "India"],
+				"answer": "Japan"
+			},
+			{
+				"question": "Which football team has the most UEFA Champions League titles?",
+				"options": ["FC Barcelona", "AC Milan", "Liverpool", "Real Madrid"],
+				"answer": "Real Madrid"
+			},
+			{
+				"question": "Which country is known for creating the sport of ice hockey?",
+				"options": ["USA", "Canada", "Russia", "Finland"],
+				"answer": "Canada"
+			},
+			{
+				"question": "How many UEFA Champions League titles has Real Madrid won?",
+				"options": ["13", "15", "12", "10"],
+				"answer": "15"
+			},
+			{
+				"question": "Which team has won the most consecutive Ligue 1 titles?",
+				"options": [
+					"Paris Saint-Germain",
+					"Olympique Lyonnais",
+					"AS Monaco",
+					"Marseille"
+				],
+				"answer": "Olympique Lyonnais"
+			},
+			{
+				"question": "Which swimmer holds the record for the most Olympic gold medals?",
+				"options": [
+					"Michael Phelps",
+					"Ian Thorpe",
+					"Caeleb Dressel",
+					"Ryan Lochte"
+				],
+				"answer": "Michael Phelps"
+			},
+			{
+				"question": "In which sport do teams compete in a 'best of seven' series to win a championship?",
+				"options": ["Football", "Basketball", "Baseball", "Ice Hockey"],
+				"answer": "Basketball"
+			},
+			{
+				"question": "Which footballer has scored the most free kicks in his career?",
+				"options": [
+					"Cristiano Ronaldo",
+					"Lionel Messi",
+					"Juninho",
+					"David Beckham"
+				],
+				"answer": "Juninho"
+			},
+			{
+				"question": "How many career free kicks has Juninho scored?",
+				"options": ["40", "55", "77", "100"],
+				"answer": "77"
+			},
+			{
+				"question": "Which football club has won the most consecutive Ligue 1 titles?",
+				"options": [
+					"Paris Saint-Germain",
+					"Olympique Lyonnais",
+					"AS Monaco",
+					"Marseille"
+				],
+				"answer": "Olympique Lyonnais"
+			},
+			{
+				"question": "Which country is known as the birthplace of rugby?",
+				"options": ["New Zealand", "England", "Australia", "France"],
+				"answer": "England"
+			},
+			{
+				"question": "Which footballer holds the record for the most goals scored in a single season of La Liga?",
+				"options": [
+					"Cristiano Ronaldo",
+					"Lionel Messi",
+					"Karim Benzema",
+					"Raul Gonzalez"
+				],
+				"answer": "Lionel Messi"
+			},
+			{
+				"question": "Which Asian team had the best performance in a FIFA World Cup, reaching the quarter-finals?",
+				"options": ["Japan", "South Korea", "Iran", "Saudi Arabia"],
+				"answer": "South Korea"
+			}
+		],
+		"Esport": [
+			{
+				"question": "Which game is known for the 'Summoner's Rift' map?",
+				"options": [
+					"Dota 2",
+					"League of Legends",
+					"Fortnite",
+					"Counter-Strike"
+				],
+				"answer": "League of Legends"
+			},
+			{
+				"question": "Which esport game involves 'heroes' with different abilities and strategies?",
+				"options": ["Overwatch", "Rocket League", "FIFA", "Call of Duty"],
+				"answer": "Overwatch"
+			},
+			{
+				"question": "Which K-pop group collaborated with Riot Games for the 2023 League of Legends World Championship anthem?",
+				"options": ["BLACKPINK", "(G)I-dle", "NewJeans", "Stray Kids"],
+				"answer": "NewJeans"
+			},
+			{
+				"question": "In which game do players compete in a virtual football match with cars?",
+				"options": ["Rocket League", "FIFA", "Madden NFL", "NBA 2K"],
+				"answer": "Rocket League"
+			},
+			{
+				"question": "Which K-pop group collaborated on a song for the Netflix series Arcane?",
+				"options": ["BLACKPINK", "Newjeans", "Stray Kids", "(G)I-DLE"],
+				"answer": "Stray Kids"
+			},
+			{
+				"question": "Which esports tournament is known for its 'League of Legends' World Championship?",
+				"options": [
+					"The International",
+					"The World Championship",
+					"The Masters",
+					"LCS"
+				],
+				"answer": "The World Championship"
+			},
+			{
+				"question": "Which famous esports team did the player Faker represent?",
+				"options": ["Fnatic", "T1", "G2 Esports", "Cloud9"],
+				"answer": "T1"
+			},
+			{
+				"question": "Which game is known for its tactical shooter gameplay with 'bomb planting' and 'defusal' modes?",
+				"options": [
+					"Counter-Strike: Global Offensive",
+					"Valorant",
+					"Rainbow Six Siege",
+					"Overwatch"
+				],
+				"answer": "Counter-Strike: Global Offensive"
+			},
+			{
+				"question": "Which esport game uses the phrase 'Penta kill' as a key term for a gameplay achievement?",
+				"options": [
+					"League of Legends",
+					"Overwatch",
+					"Dota 2",
+					"Heroes of the Storm"
+				],
+				"answer": "League of Legends"
+			},
+			{
+				"question": "Which team won the 2021 League of Legends World Championship?",
+				"options": ["Damwon KIA", "T1", "G2 Esports", "FunPlus Phoenix"],
+				"answer": "Damwon KIA"
+			},
+			{
+				"question": "Which esports organization is known for its teams in both League of Legends and Counter-Strike?",
+				"options": ["Cloud9", "FaZe Clan", "Team Liquid", "G2 Esports"],
+				"answer": "Team Liquid"
+			},
+			{
+				"question": "Which game features a competitive mode where players fight to be the last one standing on an island?",
+				"options": ["Apex Legends", "PUBG", "Fortnite", "All of the above"],
+				"answer": "All of the above"
+			},
+			{
+				"question": "What does 'MMR' stand for in competitive gaming?",
+				"options": [
+					"Maximum Multiplayer Rank",
+					"Matchmaking Rating",
+					"Major Multiplayer Rank",
+					"Master Matchmaking Rank"
+				],
+				"answer": "Matchmaking Rating"
+			},
+			{
+				"question": "Which team is the only one to have won the League of Legends World Championship more than once?",
+				"options": ["T1", "Fnatic", "Invictus Gaming", "Cloud9"],
+				"answer": "T1"
+			},
+			{
+				"question": "Which is the only European team to have won the League of Legends World Championship?",
+				"options": ["Fnatic", "G2 Esports", "MAD Lions", "Rogue"],
+				"answer": "Fnatic"
+			},
+			{
+				"question": "Which esports player is known for winning multiple Major Championships in 'Counter-Strike: Global Offensive'?",
+				"options": ["s1mple", "shroud", "Niko", "olofmeister"],
+				"answer": "s1mple"
+			},
+			{
+				"question": "Which esports tournament has the largest prize pool in Dota 2 history?",
+				"options": [
+					"The International",
+					"ESL One",
+					"DreamHack",
+					"BLAST Premier"
+				],
+				"answer": "The International"
+			},
+			{
+				"question": "In what year did 'League of Legends' officially launch its esports league, the LCS?",
+				"options": ["2011", "2013", "2015", "2017"],
+				"answer": "2013"
+			},
+			{
+				"question": "Which esports team has the longest running streak of championships in the 'League of Legends' LCS?",
+				"options": [
+					"Team SoloMid",
+					"Cloud9",
+					"Team Liquid",
+					"Counter Logic Gaming"
+				],
+				"answer": "Team SoloMid"
+			},
+			{
+				"question": "Which team won the most recent Valorant Champions event?",
+				"options": ["Sentinels", "Fnatic", "G2 Esports", "Team Liquid"],
+				"answer": "Sentinels"
+			}
+		],
+		"Asian Culture": [
+			{
+				"question": "What is the capital city of Japan?",
+				"options": ["Tokyo", "Kyoto", "Osaka", "Hokkaido"],
+				"answer": "Tokyo"
+			},
+			{
+				"question": "Which Asian country is famous for its Great Wall?",
+				"options": ["China", "Japan", "India", "South Korea"],
+				"answer": "China"
+			},
+			{
+				"question": "What is the most popular sport in India?",
+				"options": ["Cricket", "Football", "Hockey", "Tennis"],
+				"answer": "Cricket"
+			},
+			{
+				"question": "Which Asian country is known as the 'Land of the Morning Calm'?",
+				"options": ["South Korea", "Japan", "China", "Thailand"],
+				"answer": "South Korea"
+			},
+			{
+				"question": "What is the primary religion in Thailand?",
+				"options": ["Buddhism", "Hinduism", "Islam", "Christianity"],
+				"answer": "Buddhism"
+			},
+			{
+				"question": "Which Asian country is famous for its Angkor Wat temple complex?",
+				"options": ["Vietnam", "Thailand", "Cambodia", "Myanmar"],
+				"answer": "Cambodia"
+			},
+			{
+				"question": "Which Asian festival is also known as the 'Festival of Lights'?",
+				"options": ["Diwali", "Lunar New Year", "Eid al-Fitr", "Songkran"],
+				"answer": "Diwali"
+			},
+			{
+				"question": "In which Asian country did the martial art Taekwondo originate?",
+				"options": ["China", "South Korea", "Japan", "Thailand"],
+				"answer": "South Korea"
+			},
+			{
+				"question": "What is the name of the traditional Japanese garment often worn during festivals?",
+				"options": ["Kimono", "Hanbok", "Cheongsam", "Sari"],
+				"answer": "Kimono"
+			},
+			{
+				"question": "Which Asian river is the longest in the continent?",
+				"options": ["Yangtze", "Mekong", "Ganges", "Brahmaputra"],
+				"answer": "Yangtze"
+			},
+			{
+				"question": "Which Asian country has the highest population in the world?",
+				"options": ["China", "India", "Indonesia", "Pakistan"],
+				"answer": "China"
+			},
+			{
+				"question": "Which Asian language is written in Hangul script?",
+				"options": ["Korean", "Chinese", "Japanese", "Thai"],
+				"answer": "Korean"
+			},
+			{
+				"question": "What is the name of the ancient trade route connecting Asia to Europe?",
+				"options": ["Silk Road", "Amber Road", "Spice Route", "Incense Route"],
+				"answer": "Silk Road"
+			},
+			{
+				"question": "What is the name of the Korean fermented cabbage dish?",
+				"options": ["Kimchi", "Bulgogi", "Bibimbap", "Japchae"],
+				"answer": "Kimchi"
+			},
+			{
+				"question": "Which Asian country is known for the martial art Muay Thai?",
+				"options": ["Thailand", "Japan", "Vietnam", "Indonesia"],
+				"answer": "Thailand"
+			},
+			{
+				"question": "Which K-pop group was the first to perform at Coachella?",
+				"options": ["BLACKPINK", "BTS", "2NE1", "BIGBANG"],
+				"answer": "BLACKPINK"
+			},
+			{
+				"question": "In the anime 'Attack on Titan', what is the name of the city where the story begins?",
+				"options": ["Shiganshina", "Trost", "Mitras", "Stohess"],
+				"answer": "Shiganshina"
+			},
+			{
+				"question": "Which K-pop idol is known as the 'Nation's Little Sister' in South Korea?",
+				"options": ["IU", "Taeyeon", "Suzy", "Hyuna"],
+				"answer": "IU"
+			},
+			{
+				"question": "Which K-pop idol is famously known for his deep voice?",
+				"options": [
+					"Felix (Stray Kids)",
+					"Taemin (SHINee)",
+					"RM (BTS)",
+					"T.O.P (BIGBANG)"
+				],
+				"answer": "Felix (Stray Kids)"
+			},
+			{
+				"question": "Which Stray Kids member is known for being the leader and producer of the group?",
+				"options": ["Bang Chan", "Lee Know", "Hyunjin", "Han"],
+				"answer": "Bang Chan"
+			}
+
+		]
+	}
+}
