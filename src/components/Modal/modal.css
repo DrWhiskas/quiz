@@ -1,6 +1,21 @@
 .modal{
     position: absolute;
-    background: red;
-    width: 500px;
-    height: 500px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal__content{
+    width: 20vw;
+    background: blue;
+    border-radius: 3px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
 }

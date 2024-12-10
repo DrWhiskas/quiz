@@ -16,10 +16,10 @@ export default function Modal({...props}: modalProps){
 				<div className="modal__content">
 					<h2 className="modal__content__title">{props.title}</h2>
 					<p className="modal__content__text">{props.text}</p>
+					<button className="modal__btn" onClick={props.NextQuestion}>
+						Next Question
+					</button>
 				</div>
-				<button className="modal__btn" onClick={props.NextQuestion}>
-					Next Question
-				</button>
 			</section>
 		);
 }
