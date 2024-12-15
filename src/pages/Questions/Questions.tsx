@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './questions.css';
-import { useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import data from '../../data/quiz.json';
 import Modal from '../../components/Modal/Modal';
 import { log } from 'console';
 
+
 export default function Questions() {
+	const navigate = useNavigate()
 	/* MODAL */
 	const [showModal, setShowModal] = useState(false);
 	const [titleModal, setTitleModal] = useState('');
@@ -14,6 +16,7 @@ export default function Questions() {
 	const [searchParams] = useSearchParams();
 	const category = searchParams.get('category');
 	const [rightAnswer, setRightAnswer] = useState(0);
+	const [index, setIndex] = useState(0)
 
 	const categoryNames = Object.keys(data.categories);
 	const isValidCategory = categoryNames.includes(category || '');
@@ -27,6 +30,8 @@ export default function Questions() {
 		if (currentQuestionIndex < questions.length - 1) {
 			setCurrentQuestionIndex(currentQuestionIndex + 1);
 			setShowModal(false);
+		}else{
+			navigate('/home')
 		}
 	}
 
@@ -38,9 +43,13 @@ export default function Questions() {
 		} else {
 			setTitleModal('WRONG');
 		}
+		console.log(questions[currentQuestionIndex]);
+
 		setShowModal(true);
+		setIndex(index+1)
 		setModalText(answerText(answer));
 	}
+
 	function answerText(selectedAnswer: string) {
 		const correctAnswer = questions[currentQuestionIndex].answer;
 		if (selectedAnswer === correctAnswer) {
