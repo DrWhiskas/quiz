@@ -12,6 +12,7 @@ export default function Questions() {
 	const [showModal, setShowModal] = useState(false);
 	const [titleModal, setTitleModal] = useState('');
 	const [modalText, setModalText] = useState<React.ReactNode>(null);
+	const [count, setCount] = useState(0)
 
 	const [searchParams] = useSearchParams();
 	const category = searchParams.get('category');
@@ -31,6 +32,8 @@ export default function Questions() {
 			setCurrentQuestionIndex(currentQuestionIndex + 1);
 			setShowModal(false);
 		}else{
+			setTitleModal('Your score is:');
+			setModalText(showScore(count));
 			navigate('/home')
 		}
 	}
@@ -38,13 +41,13 @@ export default function Questions() {
 	function handleAnswerClick(answer: string) {
 		const correctAnswer = questions[currentQuestionIndex].answer;
 		if (answer === correctAnswer) {
+			setCount(count+1)
 			setRightAnswer(rightAnswer + 1);
 			setTitleModal('Correct');
 		} else {
 			setTitleModal('WRONG');
 		}
-		console.log(questions[currentQuestionIndex]);
-
+		console.log(count);
 		setShowModal(true);
 		setIndex(index+1)
 		setModalText(answerText(answer));
@@ -57,6 +60,13 @@ export default function Questions() {
 		} else {
 			return <p>{correctAnswer} is the correct option</p>;
 		}
+	}
+	function showScore(userScore: number){
+		return (
+			<p>
+				Your score is: <span>{userScore}</span>/20
+			</p>
+		);
 	}
 	return (
 		<section className="questions">
